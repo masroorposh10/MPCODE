@@ -1,0 +1,51 @@
+.code-editor {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d5d5d5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .line-numbers {
+    user-select: none;
+    padding-right: 10px;
+    text-align: right;
+  }
+  
+  .line-numbers span {
+    display: block;
+    
+    margin-bottom: 5px;
+  }
+  
+  .code-area {
+    flex: 1;
+    min-width: 0;
+    outline: none;
+  }
+  
+  .code-area::selection {
+    background-color: #d4d4d4;
+  }
+  
+  .code-area:focus {
+    box-shadow: 0 0 0 2px #107bd8;
+  }
+  
+  .run-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .output-area {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }

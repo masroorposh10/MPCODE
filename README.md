@@ -1,83 +1,34 @@
-# MP Code 
-Code Editor with Next.js, FastAPI, MongoDB, and ChatGPT Integration
-MP Code is a powerful code editor that combines the best features of Next.js, FastAPI, MongoDB, and ChatGPT. It provides developers with a seamless coding experience, real-time code optimization, and an interactive chat-based assistant to help with code explanations and optimizations.
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-# Features
-Code Editor: MP Code offers a feature-rich code editor powered by Next.js, a popular React framework. It provides a smooth and responsive coding environment with syntax highlighting, code completion, and other essential code editing capabilities.
+## Getting Started
 
-# FastAPI Backend: 
-The backend of MP Code is built with FastAPI, a high-performance web framework for Python. FastAPI ensures speedy request processing and facilitates seamless communication between the frontend and backend.
+First, run the development server:
 
-# Database Integration: 
-MP Code utilizes MongoDB, a flexible NoSQL database, to store user profiles, code snippets, and other relevant data. MongoDB provides easy scalability and efficient data handling.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-# ChatGPT Integration: 
-MP Code incorporates ChatGPT, a powerful language model developed by OpenAI. The integrated chat-based assistant allows developers to interactively discuss code optimizations, explanations, and best practices.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Prerequisites
-Node.js and npm (https://nodejs.org/)
-Python and pip (https://www.python.org/)
-MongoDB database (https://www.mongodb.com/)
-Getting Started
-Clone the MP Code repository:
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-shell
-Copy code
-$ git clone https://github.com/your-username/mp-code.git
-$ cd mp-code
-Set up the frontend:
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-shell
-Copy code
-$ cd frontend
-$ npm install
-Configure the backend:
+## Learn More
 
-Copy the example configuration file and update the necessary settings:
+To learn more about Next.js, take a look at the following resources:
 
-shell
-Copy code
-$ cp backend/.env.example backend/.env
-Modify the backend/.env file with your MongoDB connection details and any other required environment variables.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Install the Python dependencies:
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-shell
-Copy code
-$ cd backend
-$ pip install -r requirements.txt
-Start the frontend and backend servers:
+## Deploy on Vercel
 
-shell
-Copy code
-# In the frontend directory
-$ npm run dev
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-# In the backend directory
-$ uvicorn main:app --reload
-Access MP Code in your browser at http://localhost:3000.
-
-# Usage
-Create new code snippets or open existing ones in the code editor.
-Leverage the syntax highlighting, code completion, and other code editing features to write and modify your code.
-Interact with the integrated ChatGPT assistant to seek explanations, optimizations, or general coding guidance.
-Save and retrieve your code snippets for future reference.
-Contributing
-Contributions to MP Code are welcome! If you find any bugs, have feature requests, or want to contribute enhancements, please open an issue or submit a pull request.
-
-Before contributing, please review the contribution guidelines.
-
-# License
-MP Code is released under the MIT License.
-
-# Acknowledgements
-MP Code makes use of the following open-source libraries and frameworks:
-
-Next.js
-FastAPI
-MongoDB
-ChatGPT by OpenAI
-We express our gratitude to the developers and contributors of these projects for their fantastic work.
-
-# Contact
-If you have any questions, suggestions, or feedback, please reach out to us at [support@mpcode.com](mailto:support@
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
