@@ -1,5 +1,4 @@
 # MP Code 
-- 
 Code Editor with Next.js, FastAPI, MongoDB, and ChatGPT Integration
 MP Code is a powerful code editor that combines the best features of Next.js, FastAPI, MongoDB, and ChatGPT. It provides developers with a seamless coding experience, real-time code optimization, and an interactive chat-based assistant to help with code explanations and optimizations.
 
