@@ -9,7 +9,7 @@ import axios from 'axios';
 const CodeEditor = () => {
   // all backend code:
   const [savedCode, setSavedCode] = useState('')
-
+  //get function
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -24,7 +24,7 @@ const CodeEditor = () => {
     fetchData();
   }, []);
 
-
+  // post 
   const [fileName,setFileName] = useState('');
   const [text, setText] = useState('');
   const handleSubmit = async (e) => {
@@ -84,6 +84,7 @@ const CodeEditor = () => {
   }
 
   const handleRunCode = async () => {
+    window.alert("GPT TOKENs WHICH ARE USED TO RUN THE PROGRAM ARE FINISHED \nCONTACT THE OWNER MPCODE");
     const code = "write the output for this line of code: \n" + document.querySelector('.code-area').textContent;
     console.log(code)
     const response = await getGPTResponse(code);
