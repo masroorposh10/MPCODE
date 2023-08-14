@@ -80,11 +80,14 @@ const CodeEditor = () => {
       return response.data.choices[0].text;
     } catch (error) {
       console.error('Error:', error);
+      console.log(error);
+      if (error.message == "Request failed with status code 401"){
+        window.alert("The gpt tokens used to run this code are exhausted please contact the owner")
+      }
     }
   }
 
   const handleRunCode = async () => {
-    window.alert("GPT TOKENs WHICH ARE USED TO RUN THE PROGRAM ARE FINISHED \nCONTACT THE OWNER MPCODE");
     const code = "write the output for this line of code: \n" + document.querySelector('.code-area').textContent;
     console.log(code)
     const response = await getGPTResponse(code);
