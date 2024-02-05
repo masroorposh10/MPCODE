@@ -40,9 +40,6 @@ Test your changes thoroughly to ensure they work as intended.
 License
 This project is licensed under the MIT License. Feel free to use, modify, and distribute it as per the terms of the license.
 
-# Acknowledgments
-We would like to acknowledge the following resources and libraries that have been used in the development of this web application:
-
 Next.js: https://nextjs.org/
 Express.js: https://expressjs.com/
 MongoDB: https://www.mongodb.com/
